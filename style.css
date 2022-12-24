@@ -1,0 +1,218 @@
+.btn-primary {
+    font-family: Raleway-SemiBold;
+    font-size: 15px;
+    color: rgba(58, 133, 191, 0.75);
+    letter-spacing: 1px;
+    padding: 10%;
+    line-height: 15px;
+    border: 2px solid rgba(58, 133, 191, 0.75);
+    
+    border-radius: 20px;
+    background: transparent;
+    transition: all 0.3s ease 0s;
+  }
+  body{
+    background-color: RGB(237, 227, 237);
+  }
+ 
+  .btn-primary:hover {
+    color: #FFF;
+    background: rgba(58, 133, 191, 0.75);
+    border: 2px solid rgba(58, 133, 191, 0.75);
+  }
+ 
+  .navbar-light .navbar-nav .nav-link {
+    color: #505252;
+    padding:10px;
+}
+.nav-link:hover{
+  color:blue !important;
+  border-bottom: solid rgba(60, 11, 238, 0.2);
+}
+
+.nav-link:active{
+  color:blue !important;
+  border-bottom: solid;
+}
+.nav-link.activ{
+  color:blue !important;
+  border-bottom: solid;
+}
+.imgAcceuil{
+  background:url(img/Img1.svg) no-repeat;
+   background-size: cover; 
+   height:auto;
+   width: auto;
+   display:block;
+}
+.imgFooter{
+  background:url(img/foot.svg) no-repeat;
+   background-size: cover; 
+   height:40vh;
+  
+   display:block;
+}
+.imgFooterlittle{
+  background:url(img/foot.svg) no-repeat;
+  background-size: cover; 
+  height:80vh;
+ 
+  display:block;
+}
+.footStyle{
+  margin-left:20%;
+  margin-right:20%;
+}
+.footColStyle{
+  margin-top:10%;
+  color:white;
+}
+.ulfoot{
+list-style-type: none;
+color:white;
+}
+.afoot{
+  color:RGB(187, 198, 193);
+}
+.afoot:hover{
+  color:white;
+}
+.mailing{
+padding:10px;
+}
+
+.imgComponent{
+  background:url(img/Component.svg) no-repeat;
+   background-size: cover; 
+   height:auto;
+   width: auto;
+   display:block;
+}
+
+
+.maBalise {
+  opacity: 1;
+  transition: opacity 0.5s;
+}
+.container-fluid {
+  padding: 0!important;
+  margin-right:auto;
+  margin-left:auto;
+  width: 100%;
+}
+.imgworkaccueil{
+  border-radius: 70% 20% 20% 40%;
+  box-shadow: 3px 3px rgba(20, 52, 230, 0.342), -0.5em 0 .4em rgba(70, 73, 250, 0.151);
+}
+.imgworkreport{
+  background:url(img/reportwork.jpg) no-repeat;
+  background-size: cover; 
+  height:auto;
+  width: auto;
+  display:block;
+}
+.buttoncentre{
+  height: 50px;
+  width: auto;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-weight: 500;
+  border: 2px solid #011d22;
+  border-radius: 5px;
+  color: #F8F8F8;
+  text-shadow: 0 -2px #181b1d;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2), 0px -2px 2px rgba(255, 255, 255, 0.5) inset, 0 2px 2px rgba(255, 255, 255, 0.8) inset;
+  background: linear-gradient(rgb(17, 10, 119), #2e69e9);
+  text-shadow: 0 -2px #0e0c96;
+}
+.buttoncentre:hover{
+  background: white;
+  border-color: #0b2a80;
+  color:rgb(0, 0, 0);
+}
+.textbuttoncentre{
+  padding:20px;
+}
+
+.button {
+  height: 50px;
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.skeuomorphic {
+  border: 2px solid #011d22;
+  border-radius: 5px;
+  color: #F8F8F8;
+  text-shadow: 0 -2px #006bb3;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2), 0px -2px 2px rgba(255, 255, 255, 0.5) inset, 0 2px 2px rgba(255, 255, 255, 0.8) inset;
+  background: linear-gradient(rgb(10 117 119), #23c3c9);
+  text-shadow: 0 -2px #0c9678;
+  
+}
+
+.skeuomorphic:hover {
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1), 0px -2px 2px rgba(255, 255, 255, 0.25) inset, 0 2px 2px rgba(255, 255, 255, 0.4) inset;
+  background: #0e68bc;
+  background: linear-gradient(#0e4bbc, #0f75d4);
+  border-color: #06194f;
+}
+
+.skeuomorphic:active {
+  margin-top: 2px;
+  margin-bottom: -2px;
+  box-shadow: 0px 2px 2px rgba(63, 63, 63, 0.1), 0px -2px 2px rgba(255, 255, 255, 0.25) inset, 0 2px 2px rgba(255, 255, 255, 0.4) inset;
+  background: #0c960c;
+  background: linear-gradient(#0c960c, #0ebc0e);
+}
+
+.card{
+  padding:25px;
+  background-color: RGB(237, 227, 237);
+
+}
+.stylecarte{
+  border-radius: 20px;
+  box-shadow: 3px 3px rgb(247, 247, 247), -0.5em 0 .1em rgba(252, 252, 252, 0.027);
+}
+.text-titre-component{
+  color:RGB(41, 38, 98);
+}
+@media screen and (max-width: 1200px) {
+.footStyle{
+  margin-left: 0;
+  margin-right: 0;
+}
+}
+@media screen and (max-width: 850px) {
+  /* styles pour les écrans de largeur inférieure à 800 pixels */
+  .row{
+  margin: 0 !important;;
+  }
+  .imgComponent{
+    background-color: RGB(41, 38, 98);
+  }
+ .imgFooter{
+  height:80vh;
+ }
+.footColStyle{
+  margin-top:30%;
+}
+}
+
+@media (min-width: 768px) and (max-width: 1330px) {
+  .card {
+    font-size:10px;
+  }
+  .card h2{
+    font-size:22px !important;
+  }
+  .card h3{
+    font-size:15px !important;
+  }
+}
