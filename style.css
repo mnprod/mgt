@@ -1,3 +1,7 @@
+*{
+  box-sizing: border-box;
+}
+
 .btn-primary {
     font-family: Raleway-SemiBold;
     font-size: 15px;
@@ -12,7 +16,7 @@
     transition: all 0.3s ease 0s;
   }
   body{
-    background-color: RGB(237, 227, 237);
+    background-color: #CCD5E6;
   }
  
   .btn-primary:hover {
@@ -39,9 +43,9 @@
   border-bottom: solid;
 }
 .imgAcceuil{
-  background:url(img/Img1.svg) no-repeat;
+  background:url(img/img.jpg) no-repeat;
    background-size: cover; 
-   height:auto;
+   height:100vh;
    width: auto;
    display:block;
 }
@@ -81,15 +85,265 @@ color:white;
 padding:10px;
 }
 
-.imgComponent{
-  background:url(img/Component.svg) no-repeat;
+/* Notre expérience */
+.containerexp{
+  display: grid;
+  font-family: "Raleway";
+  padding-top:3%;
+  margin-left: 5%;
+  margin-right: 5%;
+  font-weight: bold;
    background-size: cover; 
    height:auto;
    width: auto;
-   display:block;
+   grid-template-columns: repeat(3,1fr);
+   grid-template-rows: repeat(2, 1fr);
+   letter-spacing: 1.5px;
+   align-items: center;
+   justify-items: center;
+}
+.containerexp img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 300px;
+}
+.containerexp h2{
+  color:#0c2a66;
+  font-weight: bold;
+  text-align: center;
+}
+.compexpa{
+  grid-area: 1/1/span 1/span 1 ;
+  justify-content: center;
+}
+.compexpb{
+  grid-area: 1/2/2/3;
+}
+.compexpc{
+  grid-area: 1/3/2/4;
+}
+.compexpd{
+  grid-area: 2/1/3/2;
+}
+.compexpe{
+  grid-area: 2/2/3/3;
+}
+.compexpf{
+  grid-area: 2/3/3/4;
+}
+.exptext{
+  font-family: "Raleway";
+  letter-spacing: 1.5px;
+  line-height: 1.5px;
+}
+.img-fluid{
+  filter: drop-shadow(0 0 0.20rem rgba(30, 26, 233, 0.356));   
+}
+/* Nos compétences */
+
+.containercomp{
+  background-color: #0C2A66;
+  background-size: cover; 
+   height:auto;
+   width: auto;
+}
+.Component{
+  font-family: "Raleway";
+  padding-top:3%;
+  margin-left: 5%;
+  margin-right: 5%;
+  background-color: #0c2a6600;
+  color:white;
+  font-weight: bold;
+   background-size: cover; 
+   height:auto;
+   width: auto;
+   display:grid;
+   grid-template-columns: repeat(12,1fr);
+   grid-template-rows: repeat(2, 1fr);
+   align-items: flex-start;
+   justify-items: center;
+   letter-spacing: 1.5px;
+}
+.Component-text{
+  padding-top: 0%;
+  padding-bottom: 10%;
+}
+.Component h2{
+  text-align: left;
+  font-size: 25px;
+  font-weight: bold;
+  padding: 10px 10px 0px 5px;
+}
+.Component img{
+  border-radius: 30px 30px 0 0;
+  min-height: 300px;
+  width: auto;
+}
+.Component p{
+  font-weight: normal;
+  text-align: left;
+  font-size: 18px;
+  padding-left:5px;
+  padding-right: 10px;
+}
+.Component span{
+  font-size: 20px;
+ padding-left: 2%;
+}
+.Component span:hover{
+  font-size: 30px;
+}
+.Component hr{
+  margin-right: 50%;
+  border: 1px solid #0c2a66;
+  text-align: left;
+}
+.Comp{
+  max-width: 80%;
+  max-height: 500px;
+  color:black;
+  border:1px solid black;
+border-radius: 30px;
+box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.Comp-text{
+  border-radius: 0 0 30px 30px;
+  border-top:0px;
+}
+.Comp:hover{
+  background-color: #FFFFFF;
+  text-decoration: none;
+  color:#0c2a66;
+}
+.Compa{
+
+  grid-area: 1 / 4 / span 2 / span 3;
+}
+
+.Compb{
+ 
+  grid-area: 1 / 1 / span 2 / span 3;
+}
+.Compc{
+  grid-area: 1 / 7 / span 2 / span 3;
+}
+.Compd{
+  grid-area: 1 / 10 / span 2 / span 3;
+}
+.Component img{
+  width: 100%;
+  height: auto;
+  max-height: 250px;
+}
+
+/* How it works? */
+.containerhowitwork{
+  background-color: #0C2A66;
+  margin-top:10%;
+  padding-top: 2%;
+  
+}
+.Componenthowitwork{
+  font-family: "Raleway";
+  margin-left: 5%;
+  margin-right: 5%;
+  font-weight: bold;
+   display:grid;
+   grid-template-columns: repeat(2,1fr);
+   grid-template-rows: repeat(1, 1fr);
+   justify-items: center;
+   letter-spacing: 1.5px;
+   color:white;
+}
+.Imghowitwork{
+  width: 100%;
+  height: 100%;
+  grid-area: 1 / 1 / span 1 / 1;
+
+
+border-radius: 80%;
+filter: drop-shadow(0 0 0.20rem rgb(227, 237, 243));   
 }
 
 
+/* Slidere */
+.containerslider{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  height: 100vh;
+}
+.slider{
+  width: 400px;
+  height: 400px;
+transform-style: preserve-3d;
+animation: rotate 30s linear infinite;
+}
+@keyframes rotate{
+  0%{
+    transform: perspective(1000px) rotateY(0deg);
+  }
+  100%{
+    transform: perspective(1000px) rotateY(360deg);
+  }
+}
+.slider span{
+  position:absolute;
+  top:0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  transform-origin: center;
+  transform-style: preserve-3d;
+  transform: rotateY(calc(var(--i)*45deg)) translateZ(350px);
+}
+.slider span img{
+  position:absolute;
+  top:0;
+  left:0;
+  width: 100%;
+  height: 100%;
+  border-radius: 30px;
+  object-fit: cover;
+  transition: 2s;
+}
+.slider span:hover img{
+transform: translateY(-50px) scale(1.2);
+}
+
+/* Fin de la partie : Notre secteur */
+.containerSecteur{
+  font-family: "Raleway";
+  letter-spacing: 1.5px;
+  display:grid;
+  grid-template-columns: 30% 70%;
+  grid-template-rows: repeat(2, 1fr);
+  margin-left: 5%;
+  margin-right: 5%;
+
+  margin-top:-8%;
+ gap:0;
+}
+.containerSecteur img{
+  max-height: 400px;
+  width: 300px;
+}
+.Compsecteura{
+  width: 300px;
+  grid-area:1/1/span 1/span 2;
+}
+
+.Compsecteurb{
+  font-weight: bold;
+  font-size: 28px;
+  color:black;
+  align-self: center;
+  grid-area:1/2/span 1/span 2;
+}
 .maBalise {
   opacity: 1;
   transition: opacity 0.5s;
@@ -100,12 +354,9 @@ padding:10px;
   margin-left:auto;
   width: 100%;
 }
-.imgworkaccueil{
-  border-radius: 70% 20% 20% 40%;
-  box-shadow: 3px 3px rgba(20, 52, 230, 0.342), -0.5em 0 .4em rgba(70, 73, 250, 0.151);
-}
+
 .imgworkreport{
-  background:url(img/reportwork.jpg) no-repeat;
+  background:url(img/howitwork.svg) no-repeat;
   background-size: cover; 
   height:auto;
   width: auto;
@@ -183,13 +434,26 @@ padding:10px;
 .text-titre-component{
   color:RGB(41, 38, 98);
 }
+
+.containercompfenetre{
+  display:none;
+}
+.containerfenetre7301300{
+  display: none;
+}
+.containerfenetre730{
+  display: none;
+}
+.containerfenetre730finance{
+  display: none;
+}
 @media screen and (max-width: 1200px) {
 .footStyle{
   margin-left: 0;
   margin-right: 0;
 }
 }
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 768px) {
   /* styles pour les écrans de largeur inférieure à 800 pixels */
   .row{
   margin: 0 !important;;
@@ -203,16 +467,208 @@ padding:10px;
 .footColStyle{
   margin-top:30%;
 }
+
+/*Component experience adaptation pour téléphone */
+.containerexp{
+  grid-template-columns: repeat(1,1fr);
+  grid-template-rows: repeat(6, 1fr);
+}
+.containerexp h1{
+  font-size: 15px;
+}
+.containerexp img{
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ width: 100%;
+ height: 200px;
+}
+.compexpa{
+ grid-area: 1/1/span 1/span 1 ;
+ justify-content: center;
+}
+.compexpb{
+ grid-area: 2/1/3/2;
+}
+.compexpc{
+ grid-area: 3/1/4/2;
+}
+.compexpd{
+ grid-area: 4/1/5/2;
+}
+.compexpe{
+ grid-area: 5/1/6/2;
+}
+.compexpf{
+ grid-area: 6/1/7/2;
+}
+
+.slider{
+ width: 100px;
+ height: 100px;
+}
+
+/*Component nos expertises pour téléphone */
+.containercompfenetre{
+  display: block;
+  background-color: #0C2A66;
+  background-size: cover; 
+   height:auto;
+   width: auto;
+}
+.containerfenetre730{
+  display: block;
+}
+.containerfenetre730finance{
+  display: block;
+}
+.acceuildescriptionfenetre{
+  display: none;
+}
+.Compa{
+  display:none;
+}
+.Compc{
+  display:none;
+}
+.Compd{
+  display:none;
+}
+.Compcfenetre{
+grid-area:1/1/3/4;
+}
+.Compdfenetre{
+
+display:none;
+}
+.navigation{
+  display: none;
+}
+.plansite{
+  display: none;
+}
+.Compafenetretel{
+  grid-area:1/1/3/4;
+}
+.Compdfenetretel{
+  max-width: 450px !important; 
+  grid-area:1/1/3/4;
+}
+.Component{
+   grid-template-columns: repeat(3,1fr);
+   grid-template-rows: repeat(1, 1fr);
+}
+
+.Comp{
+  max-width: 100%;
+}
+.Comp-text{
+ width: auto;
+ max-width: 450px;
+}
+.containerfenetre7301300{
+  display: block;
+}
+
+/* COMPOSANT HOW IT WORK ? pour telephone */
+.Componenthowitwork{
+
+   grid-template-columns: repeat(1,1fr);
+   grid-template-rows: repeat(2, 1fr);
+   padding-bottom: 10%;
+}
+.Imghowitwork{
+  width: 100%;
+  height: 100%;
+  grid-area: 1 / 1 / span 1 / 1;
+border-radius: 80%;
+filter: drop-shadow(0 0 0.20rem rgb(227, 237, 243));   
+}
+.howitworkfullscreen{
+  display: none;
+}
+.containerSecteur{
+  display: none;
+}
+.containerslider{
+  padding-top: 10%;
+  height: 50vh;
+}
+/* FOOTER */
+#footColId{
+padding-top: 20px;
+}
+#plansite{
+  display: none;
+}
+
 }
 
 @media (min-width: 768px) and (max-width: 1330px) {
-  .card {
-    font-size:10px;
+  .containerexp{
+     grid-template-columns: repeat(2,1fr);
+     grid-template-rows: repeat(3, 1fr);
   }
-  .card h2{
-    font-size:22px !important;
+  .containerexp img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 200px;
   }
-  .card h3{
-    font-size:15px !important;
+  .compexpa{
+    grid-area: 1/1/span 1/span 1 ;
+    justify-content: center;
   }
+  .compexpb{
+    grid-area: 1/2/2/3;
+  }
+  .compexpc{
+    grid-area: 2/1/3/2;
+  }
+  .compexpd{
+    grid-area: 2/2/3/3;
+  }
+  .compexpe{
+    grid-area: 3/1/4/2;
+  }
+  .compexpf{
+    grid-area: 3/2/4/3;
+  }
+
+  .slider{
+    width: 200px;
+    height: 200px;
+}
+
+
+/* CONAINTENT COMPETENCES ADAPTATION A LA FENETRE */
+.containerfenetre7301300{
+  display: block;
+}
+.containercompfenetre{
+  display: block;
+  background-color: #0C2A66;
+  background-size: cover; 
+   height:auto;
+   width: auto;
+}
+.Compc{
+  display:none;
+}
+.Compd{
+  display:none;
+}
+.Compcfenetre{
+grid-area:1/1/3/4;
+}
+.Compdfenetre{
+grid-area:1/4/3/7;
+}
+.Component{
+   grid-template-columns: repeat(6,1fr);
+   grid-template-rows: repeat(2, 1fr);
+}
+
+
 }
