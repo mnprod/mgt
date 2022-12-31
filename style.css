@@ -324,7 +324,7 @@ transform: translateY(-50px) scale(1.2);
   grid-template-rows: repeat(2, 1fr);
   margin-left: 5%;
   margin-right: 5%;
-
+  padding-top: 10%;
   margin-top:-8%;
  gap:0;
 }
@@ -344,6 +344,8 @@ transform: translateY(-50px) scale(1.2);
   align-self: center;
   grid-area:1/2/span 1/span 2;
 }
+
+/* img how it work */
 .maBalise {
   opacity: 1;
   transition: opacity 0.5s;
@@ -422,19 +424,7 @@ transform: translateY(-50px) scale(1.2);
   background: linear-gradient(#0c960c, #0ebc0e);
 }
 
-.card{
-  padding:25px;
-  background-color: RGB(237, 227, 237);
-
-}
-.stylecarte{
-  border-radius: 20px;
-  box-shadow: 3px 3px rgb(247, 247, 247), -0.5em 0 .1em rgba(252, 252, 252, 0.027);
-}
-.text-titre-component{
-  color:RGB(41, 38, 98);
-}
-
+/* Non affichage des conteneurs pour les fenetres spécialisés */
 .containercompfenetre{
   display:none;
 }
@@ -501,6 +491,11 @@ transform: translateY(-50px) scale(1.2);
 }
 .compexpf{
  grid-area: 6/1/7/2;
+}
+/* Component slider */
+
+.containerslider{
+  height: 100vh;
 }
 
 .slider{
@@ -596,7 +591,8 @@ filter: drop-shadow(0 0 0.20rem rgb(227, 237, 243));
 }
 /* FOOTER */
 #footColId{
-padding-top: 20px;
+margin-top: 40%!important;
+height: 100vh !important;
 }
 #plansite{
   display: none;
