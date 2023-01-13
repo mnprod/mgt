@@ -1,3 +1,4 @@
+// Menu navigation changement d'apparence au clique //
 function changeLinkAppearance() {
   var links = document.querySelectorAll('a');
   for (var i = 0; i < links.length; i++) {
@@ -14,37 +15,5 @@ function changeLinkAppearance() {
 
 changeLinkAppearance();
 
-var scrolling = false;
+// Suppression de certaines DIV au changement de breakpoints //
 
-window.addEventListener('scroll', function() {
-  scrolling = true;
-  var top = window.scrollY;
-  var myElement = document.querySelector('.maBalise');
-  myElement.style.opacity = 1 - (top / 100);
-});
-
-setInterval(function() {
-  if (scrolling) {
-    scrolling = false;
-  } else {
-    var myElement = document.querySelector('.maBalise');
-    myElement.style.opacity = 1;
-  }
-}, 250);
-
-
-const div = document.createElement('div');
-if (windowWidth > 800) {
-  document.getElementById('footColId').className = 'imgFooter';
-} else {
-  document.getElementById('footColId').className = 'imgFooterlittle';
-}
-
-window.addEventListener('resize', () => {
-  const windowWidth = window.innerWidth;
-  if (windowWidth > 800) {
-    document.getElementById('footColId').className = 'imgFooter';
-  } else {
-    document.getElementById('footColId').className = 'imgFooterlittle';
-  }
-});

@@ -4,7 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <!-- Bootstrap CSS -->
+
+
+    <!-- Bootstrap CSS + DIVERS LIENS CSS -->
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
@@ -15,15 +17,18 @@
       rel="stylesheet"
       href="style.css"
     />
-    <link href="https://fonts.googleapis.com/css?family=Roboto:500" rel="stylesheet">
+  
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <title>Adhoc</title>
   </head>
+
+  <script src="https://kit.fontawesome.com/ca44dae1c0.js" crossorigin="anonymous"></script>
 
   <body>
 
     <!-- Navbar Component Menu -->
     <div class="container" style="background-color:#1b242f;">
-    <nav class="navbar fixed-top navbar-expand-md navbar-light hadow" style="background-color:#ffffffa4;" >
+    <nav class="navbar fixed-top navbar-expand-md navbar-light " style="background-color:#00000034;" >
      <img
         src="https://see.fontimg.com/api/renderfont4/8MXzz/eyJyIjoiZnMiLCJoIjoxOSwidyI6MTAwMCwiZnMiOjE5LCJmZ2MiOiIjMDAwMDAwIiwiYmdjIjoiI0ZGRkZGRiIsInQiOjF9/TUdUIEdlc3Rpb24/fastup-sc-bold.png"
         alt="logo Adhoc"
@@ -42,7 +47,7 @@
         <span class="navbar-toggler-icon"></span>
       </button>
 
-      <div class="collapse navbar-collapse justify-content-center"id="navbarSupportedContent">
+      <div class="collapse navbar-collapse justify-content-center" style="padding-left:60%;"id="navbarSupportedContent">
         <ul class="navbar-nav justify-content-center">
           <li class="nav-item ">
             <a class="nav-link activ" href="#" tabindex="0"
@@ -60,39 +65,36 @@
           </li>
         </ul>
       </div>
-      <form class="form-inline my-2 my-lg-0">
-        <div class="button skeuomorphic my-2 my-sm-0" type="submit">CONTACT</button>
-      </form>
-  
-      
-      
-
     </nav>
 
-    <script src="function.js"> document.querySelector('a').addEventListener('click', changeLinkAppearance);
-    </script>  
+
 </div>
 
 
-    <!-- Jumbotron PremierComponent Titre-->
+    <!-- Component du banner-->
+    <!-- Background image du banner ! -->
     <div
-    class="jumbotron jumbotron-fluid imgAcceuil" style="margin-bottom:5%;"
-  >
+    class=" imgAcceuil" >
 
+      <!-- Container du component corps du banner -->
   <div class=" container-fluid" style="color:white;">
   <div class="row" style="margin-left:2%">
+    <!-- Premier ligne-->
     <div class="col-12 col-md-6" style="padding-top:10%;">
-    <h1 class="display-4 my-5 font-weight-bold"> MGT Gestion  </h1>
-  <p class="lead font-weight-bold" style="font-size:25px;"> Gestion totale ou partielle de votre activité <br> dans plusieurs secteurs.</p>
+    <h1 class="display-5 font-weight-bold" style="padding-top:10%;"> Gestion totale <br> ou partielle de votre activité <br> dans plusieurs secteurs.</p> </h1>
 <button class="buttoncentre"> <span class="textbuttoncentre">Discutons de VOTRE besoin </span></button>
 </div>
 <div class="col-12 offset-md-2 col-md-4 " style="margin-top:10%;padding-top: 15%;">
 </div>
 </div>
+<div class="circle">
+  <i class="fa-solid fa-angle-down"></i>
+</div>
   </div>
   </div>
     <!-- Container -->
-    <div class="container my-4" style="margin-top:10%;margin-bottom:10%;">
+    <div class="corpus1">
+    <div class="container" style="padding-top:10%;padding-bottom: 10%;">
       <!-- Quote Section -->
       <div class="row">
         <div class="col col-md-12">
@@ -105,48 +107,37 @@
       <hr />
       </div>
       <!-- EXPERIENCES -->
-      <h1 style="text-align:center;margin-top: 10%;font-weight: bold;color:black"> NOS EXPERIENCES </h1>
+      <h1 style="text-align:center;font-weight: bold;color:black"> NOS EXPERIENCES </h1>
       <hr style="width: 10%; border:1px solid black;">
       <div class="containerexp">
         <div class="compexpa">
-          <img src="img/experience/gestion.svg" />
-          <h2> LA GESTION </h2>
+          <img src="img/midjourney/wolfgestion.png" />
+          <h2> GESTION & MANAGEMENT </h2>
          
 </div>
           <div class="compexpb">
-            <img src="img/experience/management.svg" />
-          <h2> LE MANAGEMENT </h2>
+            <img src="img/midjourney/wolfprogramming.png" />
+          <h2> PROGRAMMATION & DATA </h2>
       </div>   
 
             <div class="compexpc">
-              <img src="img/experience/programming.svg" />
-              <h2> DEVELOPPEMENT DE SOLUTIONS INFORMATIQUE </h2>
+              <img src="img/midjourney/wolfdirector.png" />
+              <h2> ENTREPRENARIAT </h2>
             </div> 
-
-              <div class="compexpd">
-                <img src="img/experience/data.svg" />
-                <h2> LA DATA </h2>
-               </div>
-                <div class="compexpe">
-                  <img src="img/experience/maths.svg" />
-                  <h2> LES MATHEMATIQUES </h2>
-                 </div>
-                  <div class="compexpf">
-                    <img src="img/experience/entrepreneur.svg" />
-                    <h2> L'ENTREPRENARIAT </h2>
-                   </div>
 
         </div>
 
       </div>
+    </div>
       <!-- Qui sommes-nous?-->
-      <div class="container exptext" style="padding-top: 5%; padding-bottom: 10%;">
+      <div class="corpus2">
+      <div class="container exptext" style="padding-top: 5%;border-radius: 30px;">
         <div class="row">
           <div class="col-md-6">
-            <img src="img/Workers.svg" style="width:2000px;"class="img-fluid"/>
+            <img src="img/midjourney/shamzanirdesign.png" style="width:2000px; text-shadow:#00000034;"class="img-fluid"/>
           </div>
           <div class="col-md-6">
-            <h2 class="font-weight-bold" style="color:RGB(41, 38, 98) ;text-align: center; padding-bottom: 5%;">
+            <h2 class="font-weight-bold" style="color:#9ce1e2 ;text-align: center; padding-bottom: 5%;">
               Rendez votre activité plus performante ! 
             </h2>
             <p class="h6 font-weight-normal">
@@ -163,171 +154,96 @@ activité en convergeant vers une logique de SIAD : Systèmes Intéractif d’A
           </div>
         </div>
       </div>
-         <!-- Nos compétences -->
-      <div class="containercomp">
-        <h1 style="text-align:center;color:white;padding-top:10px;"> NOS EXPERTISES</h1>
-        <hr style="border: 1px solid white; width: 10%;margin-top:0%;"> 
-      <div class="Component">
-        <a href="#" class="Comp Compa">
-        <div>
-        <img src="img/comp2/gestion.jpg">
-  
       </div>
-</a>
-     <a href="#" class="Comp Compb">
+         <!-- Nos compétences -->
+       
+      <div class="containercomp">
+        <h1 style="text-align:center;color:rgb(0, 0, 0);padding-top:10%;"> NOS EXPERTISES</h1>
+        <hr style="border: 1px solid rgb(0, 0, 0); width: 10%;margin-top:0%;"> 
+      <div class="Component" id="Component">
+        
+        <a href="#" class="Comp Compa" id="Compa">
         <div>
-          <img src="img/comp2/finance.jpg">
+        <img src="img/midjourney/finance.png" style="height:200px;">
+          <h2> Finance </h2>
+          <hr style="border:1px solid cyan; width:25%;" align="left">
+          <p>   Responsabilités opérationnelles - Gestion des dossiers transversaux.. </p>
+      </div>
+      </a>
+
+
+     <a href="#" class="Comp Compb" id="Compb">
+        <div>
+          <img src="img/midjourney/management.png" style="height:200px;">
+          <h2> Gestion </h2>
+          <hr style="border:1px solid cyan; width:25%;" align="left">
+          <p>   Responsabilités opérationnelles - Gestion des dossiers transversaux.. </p>
           </div>
 </a>
 
-<a href="#" class="Comp Compc">
+<a href="#" class="Comp Compc" id="Compc">
   <div>
-            <img src="img/comp2/data.jpg">
+            <img src="img/midjourney/analyse.png" style="height:200px;" />
+            <h2> Analyse de données </h2>
+            <hr style="border:1px solid cyan; width:25%;" align="left">
+            <p>   Responsabilités opérationnelles - Gestion des dossiers transversaux.. </p>
          </div>
 </a>
 
-<a href="#" class="Comp Compd">
+<a href="#" class="Comp Compd" id="Compd">
             <div>
-              <img src="img/comp2/programmation.jpg">
+              <img src="img/midjourney/developpement.png"  style="height:200px;"/>
+              <h2> Programmation </h2>
+              <hr style="border:1px solid cyan; width:25%;" align="left">
+              <p>   Responsabilités opérationnelles - Gestion des dossiers transversaux.. </p>
            </div>
            </a>
       </div>
 </div>
 
-<div class="Component Component-text">
-  <a href="#" class="Comp Compa Comp-text">
-<h2>
-  GESTION ADMINISTRATIVE
- </h2>
-<hr>
-<p class="description">
-  Responsabilités opérationnelles - Gestion des dossiers transversaux..
-</p>
-</a>
+<script>
+  // Sélectionne toutes les divs de classe "transparent-div"
+  var transparentDivs = document.getElementsByClassName('Comp');
+  console.log(transparentDivs);
+  // Ajoute un écouteur d'événement "mouseover" sur les divs de classe "hover-div"
+  var compaHover = [];
+  compaHover.push(document.getElementById("Compa"));
+  compaHover.push(document.getElementById("Compb"));
+  compaHover.push(document.getElementById("Compc"));
+  compaHover.push(document.getElementById("Compd"));
+  for(var i=0;i<compaHover.length;i++){
+  compaHover[i].addEventListener("mouseover",function(){
+     // Boucle à travers les divs de classe "transparent-div"
+    for (var j = 0; j < transparentDivs.length; j++) {
+      console.log(this);
+        // Change l'opacité des divs de classe "transparent-div" en 0.5
+        console.log(transparentDivs[j]);
+        if(this===transparentDivs[j]){
+          transparentDivs[j].style.opacity =1;
+        }else{
+        
+        transparentDivs[j].style.opacity = 0.5;
+        
+        }
+      }
+  });
+}
 
-<a href="#" class="Comp Compb Comp-text">
-<h2>
-  FINANCE
- </h2>
- <hr>
- <p class="description">
-   Traitement de documents financiers ou comptables - Gestion et audit...
- </p>
-</a>
-
-<a href="#" class="Comp Compc Comp-text"> 
-<h2>
-  DATA
- </h2>
- <hr>
- <p class="description">
-   Approche proactive - croisement des données ...
- </p>
-</a>
-
-<a href="#" class="Comp Compd Comp-text" >
- <h2>
-  SOLUTION INFORMATIQUE
- </h2>
- <hr>
- <p class="description">
-   Site vritrine - Base de données - Projets personnalisé..
- </p>
-</a>
-
- </div>
-<!--  GESTION FENETRE !! 730 -> 1300   -->
-<div class="containerfenetre7301300"> 
-<div class="containercompfenetre">
-  <div class="Component">
-    <a href="#" class="Comp Compcfenetre">
-      <div>
-                <img src="img/comp2/data.jpg">
-             </div>
-    </a>
-    
-    <a href="#" class="Comp Compdfenetre">
-                <div>
-                  <img src="img/comp2/programmation.jpg">
-               </div>
-               </a>
-  </div>
-</div>
-  <div class="Component Component-text">
-    <a href="#" class="Comp Compcfenetre Comp-text"> 
-      <h2>
-        DATA
-       </h2>
-       <hr>
-       <p class="description">
-         Approche proactive - croisement des données ...
-       </p>
-      </a>
-      
-      <a href="#" class="Comp Compdfenetre Comp-text" >
-       <h2>
-        SOLUTION INFORMATIQUE
-       </h2>
-       <hr>
-       <p class="description">
-         Site vritrine - Base de données - Projets personnalisé..
-       </p>
-      </a>
-  </div>
-  </div>
- <!-- GESTION FENETRE TELEPHONE - AJOUT DE DEUX COMPS -->
- <div class="containerfenetre730"> 
-  <div class="containercompfenetre">
-    <div class="Component">
-      <a href="#" class="Comp Compdfenetretel">
-        <div>
-          <img src="img/comp2/programmation.jpg">
-       </div>
-       </a>
-    </div>
-  </div>
-    <div class="Component Component-text">
-     
-      <a href="#" class="Comp Compdfenetretel Comp-text" >
-        <h2>
-         SOLUTION INFORMATIQUE
-        </h2>
-        <hr>
-        <p class="description">
-          Site vritrine - Base de données - Projets personnalisé..
-        </p>
-       </a>
-    </div>
-    </div>
+    for(var i=0;i<compaHover.length;i++){
+    compaHover[i].addEventListener('mouseout', function() {
+      // Boucle à travers les divs de classe "transparent-div"
+      for (var j = 0; j < transparentDivs.length; j++) {
+        // Change l'opacité des divs de classe "transparent-div" en 1
+        transparentDivs[j].style.opacity = 1;
+      }
+    });
+    }
+           </script>
 
 
-    <div class="containerfenetre730finance"> 
-      <div class="containercompfenetre">
-        <div class="Component">
-          <a href="#" class="Comp Compafenetretel">
-            <div>
-            <img src="img/comp2/gestion.jpg">
-      
-          </div>
-    </a>
-        </div>
-      </div>
-        <div class="Component Component-text">
-         
-          <a href="#" class="Comp Compafenetretel Comp-text">
-            <h2>
-              GESTION ADMINISTRATIVE
-             </h2>
-            <hr>
-            <p class="description">
-              Responsabilités opérationnelles - Gestion des dossiers transversaux..
-            </p>
-            </a>
-        </div>
-        </div>
    <!-- Comment ça marche? -->
   
-    <div class="container my-4" style="margin-top:10%;margin-bottom:10%;">
+    <div class="container my-4" style="padding-top:10%;margin-top:10%;margin-bottom:10%;">
       <!-- Quote Section -->
       <div class="row">
         <div class="col col-md-12">
@@ -338,15 +254,15 @@ parler. La mesure de la performance est un élément indispensable à tout raiso
           <p class="text-right font-italic font-weight-bold">-L'équipe MGT, <span class="font-weight-normal">MGT Gestion</span></p>
         </div>
       </div>
-      <hr />
+      <hr color="black"/>
       </div>
 
       <div class="containerhowitwork">
-  <div class="Componenthowitwork">
+  <div class="Componenthowitwork" style="padding-top:5%;padding-bottom:5%;">
    
-    <img src="img/howitwork.svg" class="Imghowitwork">
+    <img src="img/midjourney/howitwork.png" class="Imghowitwork">
 
-    <div class="container">
+    <div class="containertexthowitwork">
       <h2 class="font-weight-bold" style="color:#B2EBF5;text-align: center; padding-bottom: 5%;"></h2class> Comment ça marche ? </h2>
       <p class="description"><span class="howitworkfullscreen">
         Après avoir défini votre besoin nous vous proposerons notre solution en vous présentant
@@ -357,35 +273,38 @@ rendu du résultat).</p>
       </div>
 
 </div></div>
+
+<h1 style="padding-top:5%;color:black; text-align: center;"> NOS SECTEURS </h1>
+<hr style="border-top:1px solid black;width:10%;padding-bottom: 5%; margin-top:0%;">
 <div class="containerslider">
-  <h1 style="padding-top:5%;color:black;"> NOS SECTEURS </h1>
-  <hr style="border-top:1px solid black;width:10%;padding-bottom: 15%; margin-top:0%;">
-<div class="slider">
-  <span style="--i:1;"> <img src="img/secteur/btp.svg" style="width: 200px;height: 300px;"> </span>
-  <span style="--i:2;"> <img src="img/secteur/chimie.svg" style="width: 220px;height: 300px;"> </span>
-  <span style="--i:3;"> <img src="img/secteur/banque.svg" style="width: 220px;height: 300px;"> </span>
-  <span style="--i:4;"> <img src="img/secteur/numerique.svg" style="width: 220px;height: 300px;"> </span>
-  <span style="--i:5;"> <img src="img/secteur/automobile.svg" style="width: 220px;height: 300px;"> </span>
-  <span style="--i:6;"> <img src="img/secteur/hotellerie.svg" style="width: 220px;height: 300px;"> </span>
-  <span style="--i:7;"> <img src="img/secteur/agriculture.svg" style="width: 220px;height: 300px;"> </span>
-</div>
+
+<div class="row slider">
+  <img src="img/midjourney/building.png" class="slidernumerique"> 
+  <img src="img/midjourney/numerique.png" class="sliderchimie"> 
+   <img src="img/midjourney/iphoneagricole.png" class="slidermgt">
+   <img src="img/midjourney/car.png" class="sliderbtp">
+   <img src="img/midjourney/chemestry.png" class="sliderother">
+
 </div>
 
 <div class="containerSecteur">
-
-  <div class="Compsecteura">
-    <img src="img/secteur/thumb.svg">
-  </div>
-
   <div class="Compsecteurb">
-
-    <p>
-      La DATA et la gestion étant primordiale dans tous les secteurs, notre champs d’actions est très vaste.
-      <br><br>
-      Le soutien à nos tpe/pme locales constitue notre ancrage.
+    <img src="img/midjourney/lightidea.png"  width="30%" height="20%" style="text-align:center;"/>
+    <p style="text-align:justify;" >
+      Notre expertise en matière de solutions informatiques et d'analyse <br>de numérisation s'étend à un large éventail de secteurs,
+       tels que l'immobilier, l'agriculture, le bâtiment, la banque et bien plus encore, 
+       garantissant une viabilité pour tous vos besoins.
+      <br> <br>
+     <span class="texthide"> Ne manquez pas cette occasion de découvrir comment nos solutions informatiques <br> et d'analyse de numérisation peuvent améliorer votre entreprise.<br>
+       Demandez dès maintenant un devis gratuit pour un aperçu personnalisé<br> de ce que nous pouvons vous offrir. </span>
     </p>
+    <button class="buttoncentre my-5" style="text-align:center;">
+      DEMANDEZ VOTRE DEVIS !
+    </button>
 
   </div>
+</div>
+</div>
 </div>
     <!-- Footer -->
     <div id="footColId" class="container-fluid imgFooter" style="margin-top:10%; height: 50vh;">
@@ -478,5 +397,12 @@ rendu du résultat).</p>
       integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
       crossorigin="anonymous"
     ></script>
+
+
+       <!-- Fonction javascript pour le changement d'apparence au clique sur le menu.-->
+       <script src="function.js"> document.querySelector('a').addEventListener('click', changeLinkAppearance);
+        document.getElementById("Compa").addEventListener('mouseover',transparentDiv);
+        </script>  
+
   </body>
 </html>
